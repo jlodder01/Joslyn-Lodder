@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Design Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <button class="nav-logo" onclick="scrollToSection('hero')">JOSLYN LODDER</button>
+            <div class="nav-links">
+                <button onclick="scrollToSection('portfolio')">Work</button>
+                <button onclick="scrollToSection('about')">About</button>
+                <button onclick="scrollToSection('contact')">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <img class="hero-avatar" src="./images/Jlodder.png" alt="Joslyn Lodder"/>
+           <h1 class="hero-title">
+  <span style="font-size: 3rem; font-weight: 700;">
+    Joslyn Lodder
+  </span>
+  <br>
+  <span style="font-size: 1.4rem; font-style: italic; font-weight: 400;">
+    UX Designer
+  </span>
+  <br>
+  <span style="font-size: 1.8rem; font-weight: 500;">
+    Meaningful Digital Experiences
+  </span>
+</h1>
+
+            </h1>
+            <p class="hero-description">
+                I create user-centered designs that solve real problems and deliver exceptional experiences. 
+                With a focus on research, strategy, and beautiful interfaces.
+            </p>
+            <button class="btn-primary" onclick="scrollToSection('portfolio')">
+                View My Work
+            </button>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Selected Work</h2>
+                <p class="section-description">
+                    A collection of projects showcasing my approach to user experience design, 
+                    from research and strategy to final implementation.
+                </p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <a class="project-card" href="https://docs.google.com/presentation/d/1eyz5L-z0w7NIzCddoNSN9Tw2zwlQy-dytjsWqRk9Qd8/edit?usp=sharing" target="_blank">
+                    <div class="project-image">
+                        <img src="./images/pinkbox.png" 
+                             alt="E-Commerce Redesign">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">UX/UI Design</p>
+                        <h3 class="project-title">Pinkbox Donuts Redesign</h3>
+                        <p class="project-description">Complete redesign of Pinkbox Donut App</p>
+                    </div>
+                  </a>
+
+                <a class="project-card" href="https://docs.google.com/presentation/d/1n4cQhvP8nNfbOskFzUVljmBV4RUeGU9qGLinHyx3nvc/edit?usp=sharing" target="_blank">
+                    <div class="project-image">
+                        <img src="./images/secondchance.png" 
+                             alt="Mobile Banking App">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Product Design</p>
+                        <h3 class="project-title">Second Chance Chi</h3>
+                        <p class="project-description">Redesign of the non-profit Second Chance Chi Website</p>
+                    </div>
+                  </a>
+
+                <a class="project-card" href="https://docs.google.com/presentation/d/1Z9nmLUV_h3xjXiqE7YlOe1DV18W1PXGYZM7yW53IgHk/edit?usp=sharing" target="_blank">
+                    <div class="project-image">
+                        <img src="./images/starbucks.png" 
+                             alt="Healthcare Dashboard">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">UX Research & Design</p>
+                        <h3 class="project-title">Starbuck App</h3>
+                        <p class="project-description">Starbucks App redesign to enhance customer experience.</p>
+                    </div>
+                  </a>
+
+                <a class="project-card" href="https://docs.google.com/presentation/d/1NRvlXJ2KlxubXYrX6dfdTUpm53A9_zT8jIl97y_rT3I/edit?usp=sharing" target="_blank">
+                    <div class="project-image">
+                        <img src="./images/dhs.png" 
+                             alt="Social Media Platform">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">UX Design</p>
+                        <h3 class="project-title">Homeland Security Redesign</h3>
+                        <p class="project-description">Redesign of the platform and menu for Homeland Security Website focused on sitemapping.</p>
+                    </div>
+                  </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-bio">
+                    <h2>About Me</h2>
+                    <p>
+                        I'm a UX designer with 3 years of experience creating digital products 
+                        that people love to use. I have a Master's Degree from ASU in User Experience.
+                        My background in Human Systems Engineering, Graphic Design, and Technical Writing
+                        gives me a unique perspective on how people interact with technology.
+                    </p>
+                    <p>
+                        I specialize in user research, interaction design, and creating design systems. 
+                        My process always starts with understanding the user to meet their needs. 
+                        
+                    </p>
+                    <p>
+                        “When I’m not designing, I’m chasing adrenaline on a mountain bike or snowboard, and channeling 
+                        my creative side through decorating, fashion, and cake design. 
+                    </p>
+                </div>
+                
+                <div class="about-skills">
+                    <h3>Skills & Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <p class="skill-title">UX Research & Strategy</p>
+                            <p class="skill-description">User Interviews, Usability Testing, Persona Development, User Research, Wireframing, Prototyping, 
+                              Information Architecture, Interaction Design, Visual Design, User Flows & Journey Mapping, Persona Development
+
+Accessibility & Inclusive Design</p>
+                        </div>
+                        <div class="skill-item">
+                            <p class="skill-title">Design & Prototyping</p>
+                            <p class="skill-description">Figma, Sketch, Adobe XD, Adobe Indesign, Adobe Illustrator, Photoshop, Canva, Lightroom</p>
+                        </div>
+                        <div class="skill-item">
+                            <p class="skill-title">Development</p>
+                            <p class="skill-description">Basic HTML, CSS, JavaScript, Design Systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <svg class="value-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle cx="12" cy="12" r="6"></circle>
+                        <circle cx="12" cy="12" r="2"></circle>
+                    </svg>
+                    <h4>User-Focused</h4>
+                    <p>Every design decision is grounded in user research and real needs</p>
+                </div>
+                <div class="value-card">
+                    <svg class="value-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <h4>Collaborative</h4>
+                    <p>Working closely with stakeholders to align business goals with user needs</p>
+                </div>
+                <div class="value-card">
+                    <svg class="value-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+                        <path d="M2.5 12c1.6-4.7 5.5-8 10-8s8.4 3.3 10 8c-1.6 4.7-5.5 8-10 8s-8.4-3.3-10-8Z"></path>
+                    </svg>
+                    <h4>Innovative</h4>
+                    <p>Pushing boundaries while maintaining usability and accessibility</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container-center">
+            <h2>Let's Work Together</h2>
+            <p class="contact-description">
+                I'm always interested in hearing about new projects and opportunities. 
+                Whether you have a question or just want to say hi, feel free to reach out.
+            </p>
+            
+            <div class="contact-buttons">
+                <a href="mailto:joslyn.lodder@gmail.com" class="btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                    Email Me
+                </a>
+                <a href="./docs/resume.pdf" class="btn-secondary">Download Resume</a>
+                <a href="https://drive.google.com/drive/folders/1mhK0Ptf0XAgokSEbc5ozfZxcIHRi6VRR?usp=sharing" target="_blank" class="btn-secondary">View My Portfolio</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/joslyn-lodder-769082158/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect width="4" height="12" x="2" y="9"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://github.com/jlodder01" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                    </svg>
+                </a>
+                <a href="mailto:joslyn.lodder@gmail.com" aria-label="Email">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Joslyn Lodder. All rights reserved.</p>
+            <p>Designed & built with care</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
